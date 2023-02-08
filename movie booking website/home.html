@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <style>
+        .head-left {
+            display: flex;
+        }
+
+        .head {
+            display: flex;
+            background-color: rgba(0, 0, 0, 0.776);
+        }
+
+        .left h2 {
+            color: white;
+
+        }
+
+        .container-fluid {
+            background-color: rgba(0, 0, 0, 0.9);
+
+        }
+
+        .head-right {
+            width: 50%;
+            text-align: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head ">
+        <div class="head-left">
+            <div class="left">
+                <h2>book <i style="background-color: red;"> my </i>show</h2>
+            </div>
+            <div class="right">
+                <input type="text" name="search" id="search">
+                <button class="btn btn-sm">search</button>
+            </div>
+        </div>
+        <div class="head-right">
+
+            <li class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"></button>
+
+                <div class="dropdown-menu">
+                    <a class="dropdown-item bg-info">KOLKATA</a>
+                    <a class="dropdown-item bg-warning">MUMBAI</a>
+                    <a class="dropdown-item bg-danger">DELHI</a>
+                    <a class="dropdown-item bg-warning">PUNE</a>
+                    <a class="dropdown-item bg-danger">KOCHI</a>
+                    <a class="dropdown-item bg-warning">CHENNAI</a>
+                    <a class="dropdown-item bg-danger">BENGALURU</a>
+                </div>
+
+
+            </li>
+        </div>
+    </div>
+    <div class="container-fluid">
+
+        <h2>M4YOU</h2>
+        <ul class="nav">
+            <li class="nav-item">
+                <a href="home.html" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a href="movies.html" class="nav-link">MOVIES</a>
+            </li>
+            <!-- <li class="nav-item">
+                <a href="theaters.html" class="nav-link">THEATERS</a>
+            </li> -->
+            <li class="nav-item">
+                <a href="sports.html" class="nav-link">SPORTS</a>
+            </li>
+            <li class="nav-item">
+                <a href="activities.html" class="nav-link">ACTIVITIES</a>
+            </li>
+            <li class="dropdown">
+                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"></button>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item bg-info" href="asian.html">ASIAN MOVIES</a>
+                    <a class="dropdown-item bg-warning">NOLLYWOOD MOVIES</a>
+                    <a class="dropdown-item bg-danger">HOLLYWOOD MOVIES</a>
+                </div>
+
+
+            </li>
+
+        </ul>
+
+    </div>
+    <div class="down">
+        <div id="debasish" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#debasish" data-slide-to="0" class="active"> </li>
+                <li data-target="#debasish" data-slide-to="1"></li>
+                <li data-target="#debasish" data-slide-to="2"></li>
+                <li data-target="#debasish" data-slide-to="3"></li>
+
+            </ul>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="1st.jpg" alt="1st" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="2nd.jpg" alt="2nd" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="3rd.jpg" alt="3rd" class="d-block w-100">
+                </div>
+                <div class="carousel-item">
+                    <img src="4th.jpg" alt="4th" class="d-block w-100">
+                </div>
+
+
+            </div>
+            <a class="carousel-control-prev" href="#debasish" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#debasish" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+
+    </div>
+    <h2>Recommended Movies</h2>
+    <br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="inam" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="width: 300px;margin: auto;">
+                                            <img src="Har Har Mahadev.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">About the movie</h4>
+                                                <p class="card-text">The film will tell the story of a historical
+                                                    reference to the Maratha Empire`s creation following several
+                                                    conflicts which occurred 350 years ago.</p>
+                                                <a
+                                                    href="https://in.bookmyshow.com/kolkata/movies/har-har-mahadev/ET00339748">
+                                                    <button type="button" class="btn btn-warning">Read More</button></a>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="width: 300px;">
+                                            <img src="Thank God.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">About the movie</h4>
+                                                <p class="card-text">An egoistic real estate broker in huge debts, meets
+                                                    with an accident. As he gains consciousness, he realizes that he is
+                                                    in heaven. If he manages to win</p>
+                                                <a href="https://in.bookmyshow.com/kolkata/movies/thank-god/ET00318167">
+                                                    <button type="button" class="btn btn-warning">Read More</button></a>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="width: 300px;">
+                                            <img src="Honeymoon.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">About the movie</h4>
+                                                <p class="card-text">The day after Deep marries Sukh, his family is
+                                                    struck with the good news that their farmland has quadrupled in
+                                                    value. Considering it a blessing,the family allows the couple</p>
+                                                <a href="https://in.bookmyshow.com/kolkata/movies/honeymoon/ET00342058">
+                                                    <button type="button" class="btn btn-warning">Read More</button></a>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="width: 300px;margin: auto;">
+                                            <img src="Monster.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">About the movie</h4>
+                                                <p class="card-text">Monster is a Malayalam movie directed by Vysakh,
+                                                    starring Mohanlal in the lead.The film stars Mohanlal as Lucky Singh
+                                                    / Sivadev Subramaniyam along with Honey </p>
+                                                <a href="https://in.bookmyshow.com/kolkata/movies/monster/ET00333288"><button
+                                                        type="button" class="btn btn-warning">Read More</button></a>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="width: 300px;">
+                                            <img src="kantara(Hindi).jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">About the movie</h4>
+                                                <p class="card-text">Set in a fictional village of Dakshina Kannada,
+                                                    Kantara is a visual grandeur that brings alive the traditional
+                                                    culture of Kambla and Bhootha Kola. </p>
+                                                <a
+                                                    href="https://in.bookmyshow.com/kolkata/movies/kantara-hindi/ET00342025"><button
+                                                        type="button" class="btn btn-warning">Read More</button></a>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="col-sm-12 col-lg-4">
+                                        <div class="card" style="width: 300px;">
+                                            <img src="Black panther Wakanda Forever.jpg" class="card-img-top">
+                                            <div class="card-body">
+                                                <h4 class="card-title">About the movie</h4>
+                                                <p class="card-text">In the wake of King T`Challa`s death, Queen
+                                                    Ramonda, Shuri, M`Baku, Okoye and the Dora Milaje fight to protect
+                                                    their nation from intervening </p>
+                                                <a
+                                                    href="https://in.bookmyshow.com/kolkata/movies/black-panther-wakanda-forever/ET00310792">
+                                                    <button type="button" class="btn btn-warning">Read More</button></a>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                    <a href="#inam" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#inam" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <h2>The Best of Entertainment</h2>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="deb" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row">
+                                    <a href="https://in.bookmyshow.com/explore/upskill-kolkata?referrerBase=">
+                                        <div class="col-sm-12 col-lg-4">
+                                            <div class="card" style="width: 300px;margin: auto;">
+                                                <img src="upskill and training.jpg" class="card-img-top">
+                                                <div class="card-body">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                    <a
+                                        href="https://in.bookmyshow.com/explore/arts-and-crafts-workshops-kolkata?referrerBase=">
+                                        <div class="col-sm-12 col-lg-4">
+                                            <div class="card" style="width: 300px;">
+                                                <img src="arts and crafts.jpg" class="card-img-top">
+                                                <div class="card-body">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                    <a
+                                        href="https://in.bookmyshow.com/explore/health-and-fitness-kolkata?referrerBase=">
+                                        <div class="col-sm-12 col-lg-4">
+                                            <div class="card" style="width: 300px;">
+                                                <img src="stay fit.jpg" class="card-img-top">
+                                                <div class="card-body">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </a>
+
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row">
+                                    <a href="https://in.bookmyshow.com/explore/workshops-kolkata?referrerBase=">
+                                        <div class="col-sm-12 col-lg-4">
+                                            <div class="card" style="width: 300px;margin: auto;">
+                                                <img src="workshops.jpg" class="card-img-top">
+                                                <div class="card-body">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                    <a href="https://in.bookmyshow.com/explore/gaming-kolkata?referrerBase=">
+                                        <div class="col-sm-12 col-lg-4">
+                                            <div class="card" style="width: 300px;">
+                                                <img src="interactive games.jpg" class="card-img-top">
+                                                <div class="card-body">
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+                                    </a>
+                                    <a href="https://in.bookmyshow.com/explore/food-and-drinks-kolkata?referrerBase=">
+                                        <div class="col-sm-12 col-lg-4">
+                                            <div class="card" style="width: 300px;">
+                                                <img src="food and drink.jpg" class="card-img-top">
+                                                <div class="card-body">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </a>
+
+
+
+                                </div>
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <a href="#deb" class="carousel-control-prev" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#deb" class="carousel-control-next" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>
